@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30413.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "WpfTest", "WpfTest\WpfTest.vbproj", "{376313FD-D2BB-4DD1-A016-9D3CE9000DB9}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Box", "Box\Box.vbproj", "{9670DA1E-0AF0-4B17-A2E4-9D4062BFB0B7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		DebugRemoteIncoeBR|Any CPU = DebugRemoteIncoeBR|Any CPU
+		DebugRemoteINCPC210|Any CPU = DebugRemoteINCPC210|Any CPU
+		DebugRemoteINCPC410|Any CPU = DebugRemoteINCPC410|Any CPU
+		DebugRemoteINCPC429|Any CPU = DebugRemoteINCPC429|Any CPU
+		Release|Any CPU = Release|Any CPU
+		ReleaseCandidate|Any CPU = ReleaseCandidate|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{376313FD-D2BB-4DD1-A016-9D3CE9000DB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{376313FD-D2BB-4DD1-A016-9D3CE9000DB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{376313FD-D2BB-4DD1-A016-9D3CE9000DB9}.DebugRemoteIncoeBR|Any CPU.ActiveCfg = Debug|Any CPU
+		{376313FD-D2BB-4DD1-A016-9D3CE9000DB9}.DebugRemoteIncoeBR|Any CPU.Build.0 = Debug|Any CPU
+		{376313FD-D2BB-4DD1-A016-9D3CE9000DB9}.DebugRemoteINCPC210|Any CPU.ActiveCfg = Debug|Any CPU
+		{376313FD-D2BB-4DD1-A016-9D3CE9000DB9}.DebugRemoteINCPC210|Any CPU.Build.0 = Debug|Any CPU
+		{376313FD-D2BB-4DD1-A016-9D3CE9000DB9}.DebugRemoteINCPC410|Any CPU.ActiveCfg = Debug|Any CPU
+		{376313FD-D2BB-4DD1-A016-9D3CE9000DB9}.DebugRemoteINCPC410|Any CPU.Build.0 = Debug|Any CPU
+		{376313FD-D2BB-4DD1-A016-9D3CE9000DB9}.DebugRemoteINCPC429|Any CPU.ActiveCfg = Debug|Any CPU
+		{376313FD-D2BB-4DD1-A016-9D3CE9000DB9}.DebugRemoteINCPC429|Any CPU.Build.0 = Debug|Any CPU
+		{376313FD-D2BB-4DD1-A016-9D3CE9000DB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{376313FD-D2BB-4DD1-A016-9D3CE9000DB9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{376313FD-D2BB-4DD1-A016-9D3CE9000DB9}.ReleaseCandidate|Any CPU.ActiveCfg = Release|Any CPU
+		{376313FD-D2BB-4DD1-A016-9D3CE9000DB9}.ReleaseCandidate|Any CPU.Build.0 = Release|Any CPU
+		{9670DA1E-0AF0-4B17-A2E4-9D4062BFB0B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9670DA1E-0AF0-4B17-A2E4-9D4062BFB0B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9670DA1E-0AF0-4B17-A2E4-9D4062BFB0B7}.DebugRemoteIncoeBR|Any CPU.ActiveCfg = Debug|Any CPU
+		{9670DA1E-0AF0-4B17-A2E4-9D4062BFB0B7}.DebugRemoteIncoeBR|Any CPU.Build.0 = Debug|Any CPU
+		{9670DA1E-0AF0-4B17-A2E4-9D4062BFB0B7}.DebugRemoteINCPC210|Any CPU.ActiveCfg = Debug|Any CPU
+		{9670DA1E-0AF0-4B17-A2E4-9D4062BFB0B7}.DebugRemoteINCPC210|Any CPU.Build.0 = Debug|Any CPU
+		{9670DA1E-0AF0-4B17-A2E4-9D4062BFB0B7}.DebugRemoteINCPC410|Any CPU.ActiveCfg = Debug|Any CPU
+		{9670DA1E-0AF0-4B17-A2E4-9D4062BFB0B7}.DebugRemoteINCPC410|Any CPU.Build.0 = Debug|Any CPU
+		{9670DA1E-0AF0-4B17-A2E4-9D4062BFB0B7}.DebugRemoteINCPC429|Any CPU.ActiveCfg = Debug|Any CPU
+		{9670DA1E-0AF0-4B17-A2E4-9D4062BFB0B7}.DebugRemoteINCPC429|Any CPU.Build.0 = Debug|Any CPU
+		{9670DA1E-0AF0-4B17-A2E4-9D4062BFB0B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9670DA1E-0AF0-4B17-A2E4-9D4062BFB0B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9670DA1E-0AF0-4B17-A2E4-9D4062BFB0B7}.ReleaseCandidate|Any CPU.ActiveCfg = Release|Any CPU
+		{9670DA1E-0AF0-4B17-A2E4-9D4062BFB0B7}.ReleaseCandidate|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {84C0294B-6718-499C-8987-A8624CE4C1D0}
+	EndGlobalSection
+EndGlobal
