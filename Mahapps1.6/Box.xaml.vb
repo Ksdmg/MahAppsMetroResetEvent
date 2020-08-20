@@ -38,6 +38,7 @@ Partial Public Class Box
 
         End Using
 
+        Trace.WriteLine("This is only executed after window is closed!!")
 
     End Sub
 

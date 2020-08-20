@@ -11,10 +11,10 @@ Imports System.Windows
 
 ' Review the values of the assembly attributes
 
-<Assembly: AssemblyTitle("Box")>
+<Assembly: AssemblyTitle("Mahapps1._6")>
 <Assembly: AssemblyDescription("")>
 <Assembly: AssemblyCompany("Incoe International Europe")>
-<Assembly: AssemblyProduct("Box")>
+<Assembly: AssemblyProduct("Mahapps1._6")>
 <Assembly: AssemblyCopyright("Copyright © Incoe International Europe 2020")>
 <Assembly: AssemblyTrademark("")>
 <Assembly: ComVisible(false)>
@@ -42,7 +42,7 @@ Imports System.Windows
 
 
 'The following GUID is for the ID of the typelib if this project is exposed to COM
-<Assembly: Guid("3fb14e19-f514-4349-8602-686f2684fbc6")>
+<Assembly: Guid("32ca7f3e-2199-48f1-9b8b-be560b99f685")>
 
 ' Version information for an assembly consists of the following four values:
 '

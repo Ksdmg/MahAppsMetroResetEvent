@@ -3,12 +3,12 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{9670DA1E-0AF0-4B17-A2E4-9D4062BFB0B7}</ProjectGuid>
+    <ProjectGuid>{B7E9AE95-0444-4CBA-B830-73E8C3069EB9}</ProjectGuid>
     <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</ProjectTypeGuids>
-    <OutputType>Library</OutputType>
-    <RootNamespace>Box</RootNamespace>
-    <AssemblyName>Box</AssemblyName>
-    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Mahapps1._6</RootNamespace>
+    <AssemblyName>Mahapps1.6</AssemblyName>
+    <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
     <MyType>Custom</MyType>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
@@ -21,7 +21,7 @@
     <DefineTrace>true</DefineTrace>
     <IncrementalBuild>true</IncrementalBuild>
     <OutputPath>bin\Debug\</OutputPath>
-    <DocumentationFile>Box.xml</DocumentationFile>
+    <DocumentationFile>Mahapps1.6.xml</DocumentationFile>
     <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036,42314</NoWarn>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
@@ -33,7 +33,7 @@
     <IncrementalBuild>false</IncrementalBuild>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
-    <DocumentationFile>Box.xml</DocumentationFile>
+    <DocumentationFile>Mahapps1.6.xml</DocumentationFile>
     <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036,42314</NoWarn>
   </PropertyGroup>
   <PropertyGroup>
@@ -48,24 +48,17 @@
   <PropertyGroup>
     <OptionInfer>On</OptionInfer>
   </PropertyGroup>
-  <PropertyGroup>
-    <StartupObject />
-  </PropertyGroup>
   <ItemGroup>
-    <Reference Include="ControlzEx, Version=4.0.0.0, Culture=neutral, PublicKeyToken=69f1c32f803d307e, processorArchitecture=MSIL">
-      <HintPath>..\packages\ControlzEx.4.3.2\lib\net462\ControlzEx.dll</HintPath>
+    <Reference Include="ControlzEx, Version=3.0.2.4, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\ControlzEx.3.0.2.4\lib\net462\ControlzEx.dll</HintPath>
     </Reference>
-    <Reference Include="MahApps.Metro, Version=2.0.0.0, Culture=neutral, PublicKeyToken=51482d6f650b2b3f, processorArchitecture=MSIL">
-      <HintPath>..\packages\MahApps.Metro.2.2.0\lib\net47\MahApps.Metro.dll</HintPath>
+    <Reference Include="MahApps.Metro, Version=1.6.0.362, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\MahApps.Metro.1.6.0\lib\net45\MahApps.Metro.dll</HintPath>
     </Reference>
-    <Reference Include="Microsoft.Xaml.Behaviors, Version=1.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-      <HintPath>..\packages\Microsoft.Xaml.Behaviors.Wpf.1.1.19\lib\net45\Microsoft.Xaml.Behaviors.dll</HintPath>
-    </Reference>
-    <Reference Include="System.ComponentModel.DataAnnotations" />
-    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
-    <Reference Include="System.Web" />
-    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Windows.Interactivity, Version=4.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\ControlzEx.3.0.2.4\lib\net462\System.Windows.Interactivity.dll</HintPath>
+    </Reference>
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="System" />
@@ -80,18 +73,29 @@
     <Reference Include="System.Net.Http" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="RectDict.vb" />
+    <ApplicationDefinition Include="Application.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
     <Page Include="Box.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Compile Include="Box.xaml.vb">
-      <DependentUpon>Box.xaml</DependentUpon>
-    </Compile>
-    <Page Include="RecDict.xaml">
+    <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
+    <Compile Include="Application.xaml.vb">
+      <DependentUpon>Application.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Box.xaml.vb">
+      <DependentUpon>Box.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MainWindow.xaml.vb">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Import Include="System.Threading.Tasks" />
